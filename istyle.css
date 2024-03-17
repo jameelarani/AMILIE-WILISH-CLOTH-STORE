@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+}
+p{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.header{
+    background-color: #F5EEE6;
+    width: 100vw;
+    height: 90vh;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFB0B0;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+}
+.navlinks li{
+    margin:0 20px ;
+
+}
+.navlinks i{
+    width: 50px;
+}
+.navlinks li a{
+    color: black;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+}
+.header-content img{
+    max-width:90%;
+}
+.header-info{
+    flex: 60%;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: #A94438;
+    border-radius: 5px;
+
+}
+.header-info h2{
+    font-size: 50px;
+}
+.header-info h4 ,p{
+    margin: 15px 0;
+}
+.btn{
+    padding: 10px 16px;
+    background: #1F2544;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+}
+#categories{
+    display: flex;
+    margin-top: 80px auto;
+    justify-content: space-between;
+}
+.category{
+    text-align: center;
+}
+.featured-products{
+    margin: 80px auto;
+}
+.section-info{
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    justify-content: center;
+    align-items: center;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+
+}
+#offer{
+    margin: 80px auto;
+    background-color: #FFB0B0;
+}
+#offer.container{
+    display: flex;
+    align-items: center;
+}
+#offer.container img{
+
+    max-width: 600px;
+}
+.offer-content h1{
+    font-size: 50px;
+}
+#featured{
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color:#cbb8b8;
+}
+.footer-content{
+    display: flex;
+    padding: 80px 0;
+align-items: center;
+
+}
+.footer-content .col{
+    flex: 1;
+    margin: 0 20px;
+    justify-content: space-between;
+}
+
+.copyright{
+    padding: 10px 0;
+    text-align: center;
+}
+
